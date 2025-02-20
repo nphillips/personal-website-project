@@ -75,13 +75,16 @@ h2 {
 
 .projects-area {
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
   text-wrap: balance;
 }
 .project img {
   max-width: 200px;
   border-radius: 0.25rem;
 }
+
 .project h2,
 .project p {
   margin-top: 0.5rem;
