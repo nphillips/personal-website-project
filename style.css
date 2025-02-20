@@ -72,10 +72,20 @@ h2 {
   font-size: 1.5rem;
   line-height: 1.3;
 }
+
 .projects-area {
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 0 1.5rem;
+  gap: 0 2rem;
   text-wrap: balance;
+}
+.project img {
+  max-width: 200px;
+  border-radius: 0.25rem;
+}
+.project h2,
+.project p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .project > *:first-child {
   margin-top: 0;
