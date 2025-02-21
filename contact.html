@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="nav-body">
+        <div class="site-name">
+          <a href="/">
+            Nick Phillips
+          </a>
+        </div>
+        <ul>
+          <li> <a href="/">Home</a> </li>
+          <li> <a href="portfolio.html">Portfolio</a> </li>
+          <li> <a href="about.html">About</a> </li>
+          <li class="current"> <a href="contact.html">Contact</a> </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h1>Contact</h1>
+      <form class="contact-form" id="form">
+        <div class="form-item">
+          <label for="name">Name</label>
+          <input name="name" id="name" type="text" placeholder="John Doe" required />
+        </div>
+        <div class="form-item">
+          <label for="email">Email</label>
+          <input name="email" id="email" type="email" placeholder="john@email.com" required />
+        </div>
+        <div class="form-item">
+          <label for="message">Message</label>
+          <textarea name="message" id="message" placeholder="Enter a message" required></textarea>
+        </div>
+        <div class="form-submit">
+          <input type="submit" id="submit" type="submit" />
+        </div>
+      </form>
+    </article>
+  </main>
+</body>
+
+</html>
